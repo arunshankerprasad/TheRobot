@@ -19,8 +19,8 @@ public class TheRobot {
 			// You have to put this code before you login
 			//SASLAuthentication.supportSASLMechanism("PLAIN", 0);
 
-			//conn.login("TheRobot", "aspasp");
-			conn.login("arunshankerprasad@gmail.com", "aSpNewPWD");
+			//conn.login("TheRobot", "passwd");
+			conn.login("arunshankerprasad@gmail.com", "p@sswd");
 			ChatManager chatManager = conn.getChatManager();
 			chatManager.addChatListener(new TheRobotChatListener());
 
