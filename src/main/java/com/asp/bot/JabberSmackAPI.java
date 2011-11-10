@@ -20,7 +20,7 @@ public class JabberSmackAPI implements MessageListener{
 
 	public void login(String userName, String password) throws XMPPException
 	{
-		ConnectionConfiguration config = new ConnectionConfiguration("talk.google.com",5222, "Work");
+		ConnectionConfiguration config = new ConnectionConfiguration("10.2.0.88",5222, "space");
 		connection = new XMPPConnection(config);
 
 		connection.connect();
@@ -70,7 +70,7 @@ public class JabberSmackAPI implements MessageListener{
 
 
 		// Enter your login information here
-		c.login("[B]username[/B]", "[B]password[/B]");
+		c.login("therobot@space", "aspasp");
 
 		c.displayBuddyList();
 
